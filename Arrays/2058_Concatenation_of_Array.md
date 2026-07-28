@@ -95,8 +95,8 @@ ans = [1, 2, 1, 1, 2, 1]
 
 ## Solution
 
-Refer to **2058_Concatenation_of_Array.java** for the complete Java implementation.
----
+-Refer to **2058_Concatenation_of_Array.java** for the complete Java implementation.
+
 
 ## Complexity Analysis
 
