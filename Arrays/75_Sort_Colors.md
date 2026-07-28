@@ -154,35 +154,8 @@ Final array:
 
 ## Java Code
 
-```java
-class Solution {
-    public void sortColors(int[] nums) {
+## Solution
 
-        int low = 0;
-        int mid = 0;
-        int high = nums.length - 1;
-
-        while (mid <= high) {
-
-            if (nums[mid] == 0) {
-                int temp = nums[low];
-                nums[low] = nums[mid];
-                nums[mid] = temp;
-
-                low++;
-                mid++;
-            }
-else if (nums[mid] == 1) {
-                mid++;
-            }
-            else {
-                int temp = nums[mid];
-                nums[mid] = nums[high];
-                nums[high] = temp;
-
-                high--;
-            }
-        }
-    }
+Refer to **75_Sort_Colors.java** for the complete Java implementation.
 }
 ```
