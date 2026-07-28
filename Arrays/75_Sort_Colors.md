@@ -157,5 +157,5 @@ Final array:
 ## Solution
 
 Refer to **75_Sort_Colors.java** for the complete Java implementation.
-}
+
 ```
